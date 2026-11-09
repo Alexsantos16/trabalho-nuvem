@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VAVSHOP</title>
+<link rel="icon" type="image/png" href="img/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <div>
+            <h1>VAVSHOP</h1>
+            <p>Tudo o que você procura, você encontra aqui.</p>
+        </div>
+
+        <img src="img/vavshop.png" alt="Logo VAVSHOP" class="logo">
+    </div>
+</header>
+
+<main class="container">
+    <h2>Cadastrar Produto</h2>
+
+    <input type="text" id="titulo" placeholder="Nome do produto">
+    <input type="text" id="preco" placeholder="Preço (R$)">
+    <input type="text" id="descricao" placeholder="Descrição">
+    <input type="text" id="imagem" placeholder="URL da imagem">
+
+    <button onclick="adicionarProduto()">Adicionar Produto</button>
+
+    <section id="lista" class="grid"></section>
+</main>
+
+<script src="script.js"></script>
+
+<footer>
+    <p> Desenvolvido por Alex Apolinario e Ana Carolina 2D.</p>
+</footer>
+
+</body>
+</html>
